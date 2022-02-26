@@ -10,7 +10,7 @@ Lo script viene eseguito da una github action ogni cinque minuti e produce:
 Vengono considerati i veicoli di tipo: car, truck, bus e train e con indice di valutazione superiore a 0.5.
 
 
-![](https://raw.githubusercontent.com/napo/veicoliviaggiaretrentino/main/examples/example_cam50.jpg)
+![](https://raw.githubusercontent.com/napo/veicoliviaggiareintrentino/main/examples/example_cam50.jpg)
 
 Questioni aperte:
 - mancando l'illuminazione le webcam non sono in grado di individuare il numero di auto di notte
