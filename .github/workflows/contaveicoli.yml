@@ -1,0 +1,33 @@
+name: Scrape
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
+jobs:
+  scrape-latest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2.0.0
+        with:
+          python-version: '3.7'
+      - name: Install requirements
+        run: pip install -r requirements.txt
+      - name: run counter
+        run: python getcars.py
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "napo"
+          git config user.email "napo@fbk.eu"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
