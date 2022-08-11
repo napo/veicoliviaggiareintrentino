@@ -165,11 +165,13 @@ del webcams['attiva']
 if os.path.exists(output_data):
     last_out = pd.read_parquet(output_data)
     last_timestamp = last_out.timestamp.max()
-    actual_timestamp = webcams.timestamp.max().strftime("%Y-%m-%d %H:%M:%S")
-    if str(last_timestamp) != str(actual_timestamp):
-        newdata = pd.concat([last_out, webcams]) 
-        newdata['timestamp'] = pd.to_datetime(newdata.timestamp, format='%Y-%m-%d %H:%M:%S')
-        newdata.to_parquet(output_data, index=False)
+    row = webcams.shape[0]
+    if row !=0:
+        actual_timestamp = webcams.timestamp.max().strftime("%Y-%m-%d %H:%M:%S")
+        if str(last_timestamp) != str(actual_timestamp):
+            newdata = pd.concat([last_out, webcams]) 
+            newdata['timestamp'] = pd.to_datetime(newdata.timestamp, format='%Y-%m-%d %H:%M:%S')
+            newdata.to_parquet(output_data, index=False)
 else:
     webcams.to_parquet(output_data, index=False)
 
@@ -177,7 +179,7 @@ else:
 # In[73]:
 
 
-webcams.timestamp.max().strftime("%Y-%m-%d %H:%M:%S")
+#webcams.timestamp.max().strftime("%Y-%m-%d %H:%M:%S")
 
 
 # In[74]:
