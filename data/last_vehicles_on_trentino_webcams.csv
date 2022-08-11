@@ -1,6 +1,4 @@
 id,codice,nome,direzione,url,km,strada,localita,comune,comunita_valle,zona_tn,latitudine,longitude,timestamp,veicoli
-44,55,CAM72,Trento,http://vit.trilogis.it/cam/cam72.jpg,371.84,SS 12,Mattarello,Trento,Territorio Val d'Adige,0,46.010178,11.125,2022-08-11 09:59:56,0
-28,40,CAM53,Padova,http://vit.trilogis.it/cam/cam53.jpg,81.50,SS 47,Grigno Ovest,Grigno,Valsugana e Tesino,0,46.01388889,11.62305556,2022-08-11 10:00:36,0
-43,54,CAM71,Trento,http://vit.trilogis.it/cam/cam71.jpg,101.00,SS 47,Marter,Roncegno Terme,Valsugana e Tesino,0,46.0372,11.3993,2022-08-11 09:59:54,1
-41,52,CAM69,Trento,http://vit.trilogis.it/cam/cam69.jpg,119.25,SS 47,Pergine Centro,Pergine Valsugana,Alta Valsugana e Bersntol,0,46.057118,11.231318,2022-08-11 09:59:51,3
-36,49,CAM64,Riva del Garda,http://vit.trilogis.it/cam/cam64.jpg,0.50,SP 37,Rotatoria Riva del Garda - Pranzo,Riva del Garda,Alto Garda e Ledro,0,45.896569,10.8378921,2022-08-11 09:59:43,4
+28,40,CAM53,Padova,http://vit.trilogis.it/cam/cam53.jpg,81.50,SS 47,Grigno Ovest,Grigno,Valsugana e Tesino,0,46.01388889,11.62305556,2022-08-11 10:31:37,2
+43,54,CAM71,Trento,http://vit.trilogis.it/cam/cam71.jpg,101.00,SS 47,Marter,Roncegno Terme,Valsugana e Tesino,0,46.0372,11.3993,2022-08-11 10:30:53,2
+36,49,CAM64,Riva del Garda,http://vit.trilogis.it/cam/cam64.jpg,0.50,SP 37,Rotatoria Riva del Garda - Pranzo,Riva del Garda,Alto Garda e Ledro,0,45.896569,10.8378921,2022-08-11 10:30:39,1
