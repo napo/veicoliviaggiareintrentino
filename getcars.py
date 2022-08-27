@@ -108,28 +108,27 @@ def identifyVehicles(id,indf):
     url = indf['Url_Immagine'].values[0]
     try:
         if (url.find("webcam_outdated.jpg") == -1):
-            results = model([url])
-            #results.save("docs" + os.sep + "results")
-            results_df = results.pandas().xyxy[0]
-            results_df = results_df[results_df['confidence'] >= 0.4]
-            results_df = results_df[results_df['name'].isin(vehicles)]
-            num_vehicles = results_df.shape[0] 
-            if id in ids_clean:
-                num_vehicles = num_vehicles - 1
-                if num_vehicles < 0:
-                    num_vehicles = 0
+            try:
+                results = model([url])
+                #results.save("docs" + os.sep + "results")
+                if (len(results) >= 1):
+                    results_df = results.pandas().xyxy[0]
+                    results_df = results_df[results_df['confidence'] >= 0.4]
+                    results_df = results_df[results_df['name'].isin(vehicles)]
+                    num_vehicles = results_df.shape[0] 
+                    if id in ids_clean:
+                        num_vehicles = num_vehicles - 1
+                        if num_vehicles < 0:
+                            num_vehicles = 0
+            except Exception as ex:
+                pass
     except OSError as e:
         pass
     return(num_vehicles) #['class'].sum())
 
 
-# In[68]:
-
-
 webcams['veicoli'] = webcams['Id'].apply(lambda x: identifyVehicles(x,webcams))
 
-
-# In[69]:
 
 
 columns = {
