@@ -6,7 +6,7 @@ cramjam==2.5.0
 cycler==0.11.0
 decorator==5.1.1
 executing==0.10.0
-fastparquet==0.8.2
+fastparquet==0.8.1
 fonttools==4.37.1
 fsspec==2022.7.1
 idna==3.3
