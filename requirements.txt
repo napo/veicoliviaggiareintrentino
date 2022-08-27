@@ -10,7 +10,6 @@ fastparquet==0.8.1
 fonttools==4.37.1
 fsspec==2022.7.1
 idna==3.3
-ipython==8.4.0
 jedi==0.18.1
 kiwisolver==1.4.4
 matplotlib==3.5.3
