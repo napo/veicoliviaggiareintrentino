@@ -21,7 +21,7 @@ last_output_data = "data" + os.sep + "last_vehicles_on_trentino_webcams.csv"
 # In[61]:
 
 
-webcams = pd.DataFrame(requests.get(webcam_json_url).json()['webcams']['webcam'])
+webcams = pd.DataFrame(requests.get(webcam_json_url,verify=False).json()['webcams']['webcam'])
 
 
 # In[62]:
