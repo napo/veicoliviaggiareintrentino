@@ -10,6 +10,8 @@ import torch
 #import locale
 import warnings
 import os
+# workaround https://github.com/pytorch/vision/issues/4156
+torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 model = torch.hub.load('ultralytics/yolov5', 'yolov5n')  # or yolov5m, yolov5l, yolov5x, custom
 warnings.filterwarnings('ignore')
 #locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
