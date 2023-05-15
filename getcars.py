@@ -7,6 +7,7 @@
 import pandas as pd
 import requests
 import torch
+from ultralytics.nn.tasks import attempt_load_one_weight
 #import locale
 import warnings
 import os
