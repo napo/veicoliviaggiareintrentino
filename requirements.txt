@@ -45,3 +45,4 @@ urllib3==1.26.12
 wcwidth==0.2.5
 ipython==7.34.0
 GitPython==3.1.29
+ultralytics==8.0.4
