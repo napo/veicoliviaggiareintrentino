@@ -12,6 +12,10 @@ import torch
 from ultralytics import YOLO
 import warnings
 import os
+import cv2
+import numpy as np
+
+import areas.areas as ar
 # workaround https://github.com/pytorch/vision/issues/4156
 # torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 #model = torch.hub.load('ultralytics/yolov8', 'yolov8n')  # or yolov5m, yolov5l, yolov5x, custom
@@ -89,6 +93,10 @@ def to_timestamp(x):
 webcams['timestamp'] = webcams['TS_Image'].apply(lambda x: to_timestamp(x))
 webcams['timestamp'] = pd.to_datetime(webcams.timestamp, format='%Y-%m-%d %H:%M:%S,%f')
 vehicles = ['car','truck','bus','train','motorcycle']
+required_conf = {'car': 0.3, 'truck': 0.3, 'bus': 0.3, 'train': 0.7, 'motorcycle': 0.3}
+
+# COCO class list (https://github.com/pjreddie/darknet/blob/master/data/coco.names)
+class_list = ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
 
 
 # In[66]:
@@ -96,12 +104,11 @@ vehicles = ['car','truck','bus','train','motorcycle']
 
 # 45 -> train 0.50 (è una staccionata)
 # 34 -> train 0.55 (sono in guardrail)
-# CAM65 -> auto in parcheggio (eliminare pixel?)
-# CAM100 -> auto in parcheggio (eliminare pixel?)
-# CAM111 -> auto in parcheggio (eliminare pixel?)
-# CAM125 -> auto in parcheggio (eliminare pixel?)
-# CAM126 -> auto in parcheggio (eliminare pixel?)
-ids_clean = [34]
+# CAM65 -> auto in parcheggio (eliminare pixel?)    FIXED
+# CAM100 -> auto in parcheggio (eliminare pixel?)   FIXED
+# CAM111 -> auto in parcheggio (eliminare pixel?)   FIXED
+# CAM125 -> auto in parcheggio (eliminare pixel?)   FIXED
+# CAM126 -> auto in parcheggio (eliminare pixel?)   FIXED
 
 
 # In[67]:
@@ -111,24 +118,61 @@ def identifyVehicles(id,indf):
     num_vehicles = 0
     indf = indf[indf['Id'] == id]
     url = indf['Url_Immagine'].values[0]
+    
     try:
         if (url.find("webcam_outdated.jpg") == -1):
             try:
-                results = model([url])
-                #results.save("docs" + os.sep + "results")
-                if (len(results) >= 1):
-                    results_df = results.pandas().xyxy[0]
-                    results_df = results_df[results_df['confidence'] >= 0.4]
-                    results_df = results_df[results_df['name'].isin(vehicles)]
-                    num_vehicles = results_df.shape[0] 
-                    if id in ids_clean:
-                        num_vehicles = num_vehicles - 1
-                        if num_vehicles < 0:
-                            num_vehicles = 0
+                results = model.predict([url])
+                
+                area_name = url.split("/")[4]
+                
+                area = ar.area[f"{area_name}"]
+
+                # to save the image with the bounding boxes decoment the following 5 lines:
+                # response = requests.get(url)
+                # with open(f'docs/results/{area_name}', 'wb') as file:
+                #     file.write(response.content)
+                # frame = cv2.imread(f'docs/results/{area_name}')
+                # cv2.polylines(frame,[np.array(area,np.int32)],True,(255,0,0),2)
+                
+                a = results[0].boxes.data
+                px = pd.DataFrame(a.cpu().numpy()).astype('float')
+                
+                for index, row in px.iterrows(): 
+                    x1 = int(row[0])
+                    y1 = int(row[1])
+                    x2 = int(row[2])
+                    y2 = int(row[3])
+                    conf = float(row[4])
+                    class_list_id = int(row[5])
+                    name = class_list[class_list_id]
+
+                    if any(vehicle in name for vehicle in vehicles) and conf >= required_conf[name]:
+                        cx = int(x1 + x2) // 2 
+                        cy = int(y1 + y2) // 2 
+                        r = cv2.pointPolygonTest(np.array(area, np.int32), ((cx, cy)), False)
+                        
+                        # if r = 1 -> inside the are
+                        # if r = -1 -> outside the area
+                        if r == 1:
+
+                            # to save the image with the bounding boxes decoment the following 5 lines:
+                            # data = f'{name} {conf:.2f}'
+                            # (w, h), _ = cv2.getTextSize(data, cv2.FONT_HERSHEY_DUPLEX, 0.6, 1)
+                            # cv2.rectangle(frame,(x1,y1),(x2,y2),(35,110,255),2)
+                            # cv2.rectangle(frame, (x1, y1 - 20), (x1 + w, y1), (35,110,255), -1)
+                            # cv2.putText(frame,str(data),(x1, y1-5),cv2.FONT_HERSHEY_DUPLEX,0.6,(255,255,255),1)
+
+                            num_vehicles += 1
+
+                # to save the image with the bounding boxes decoment the following line:
+                # cv2.imwrite(f'docs/results/{area_name}', frame)            
+
             except Exception as ex:
                 pass
     except OSError as e:
         pass
+
     return(num_vehicles) #['class'].sum())
 
 
