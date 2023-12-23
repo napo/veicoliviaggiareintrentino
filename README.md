@@ -14,6 +14,6 @@ Vengono considerati i veicoli di tipo: car, truck, bus e train e con indice di v
 
 Questioni aperte:
 - mancando l'illuminazione le webcam non sono in grado di individuare il numero di auto di notte
-- vengono calcolate anche le auto nei parcheggi
+- ~vengono calcolate anche le auto nei parcheggi~
 
 
