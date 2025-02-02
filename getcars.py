@@ -7,6 +7,7 @@
 import pandas as pd
 import requests
 import torch
+from ultralytics.nn.tasks import DetectionModel
 #from ultralytics.nn.tasks import attempt_load_one_weight
 #import locale
 from ultralytics import YOLO
@@ -19,7 +20,8 @@ import areas.areas as ar
 # workaround https://github.com/pytorch/vision/issues/4156
 # torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 #model = torch.hub.load('ultralytics/yolov8', 'yolov8n')  # or yolov5m, yolov5l, yolov5x, custom
-model = YOLO("yolov8n.pt", weights_only=False)
+torch.serialization.add_safe_globals([DetectionModel])
+model = YOLO("yolov8n.pt")
 warnings.filterwarnings('ignore')
 #locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
 webcam_json_url = 'https://vit.trilogis.it/json/webcam'
