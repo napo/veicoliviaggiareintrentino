@@ -19,7 +19,7 @@ import areas.areas as ar
 # workaround https://github.com/pytorch/vision/issues/4156
 # torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 #model = torch.hub.load('ultralytics/yolov8', 'yolov8n')  # or yolov5m, yolov5l, yolov5x, custom
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8n.pt", weights_only=False)
 warnings.filterwarnings('ignore')
 #locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
 webcam_json_url = 'https://vit.trilogis.it/json/webcam'
