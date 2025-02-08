@@ -18,7 +18,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.11'
+      - name: Install Apache Arrow dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libarrow-dev libparquet-dev
       - name: Install torch
         run: pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
       - name: Install requirements
