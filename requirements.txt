@@ -4,5 +4,5 @@ ultralytics==8.2.22
 numpy==1.26.2
 opencv-python==4.9.0.80
 pyarrow==16.1.0
-torch==2.6.0
-torchaudio==2.6.0
+torch==2.5.0
+torchaudio==2.5.0
