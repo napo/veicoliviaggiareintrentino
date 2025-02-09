@@ -18,8 +18,12 @@ import numpy as np
 
 import areas.areas as ar
 import torch.nn.modules.container
-torch.serialization.add_safe_globals([DetectionModel, torch.nn.modules.container.Sequential])
-torch.serialization.default_load_weights_only = False
+from ultralytics.nn.modules import Conv
+
+# Permetti a torch di caricare le classi personalizzate
+torch.serialization.add_safe_globals([Conv])
+# torch.serialization.add_safe_globals([DetectionModel, torch.nn.modules.container.Sequential])
+
 model = YOLO("yolov8n.pt")
 warnings.filterwarnings('ignore')
 #locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
