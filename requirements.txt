@@ -1,6 +1,8 @@
-pandas==1.5.3
-requests==2.31.0
-ultralytics==8.0.228
+pandas==2.2.3
+requests==2.28.2
+ultralytics==8.2.22
 numpy==1.26.2
-opencv-python==4.8.1.78
-pyarrow==14.0.0
+opencv-python==4.9.0.80
+pyarrow==16.1.0
+torch==2.5.0
+torchaudio==2.5.0
