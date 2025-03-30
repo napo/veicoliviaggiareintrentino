@@ -1,92 +1,94 @@
 id,codice,nome,direzione,url,km,strada,localita,comune,comunita_valle,zona_tn,latitudine,longitude,timestamp,veicoli
-17,12,CAM42,Rovereto,http://vit.trilogis.it/cam/cam42.jpg,367.10,SS 12,Mattarello Sud,Trento,Territorio Val d'Adige,0,45.970436,11.113057,2025-03-30 20:58:02,0
-44,55,CAM72,Trento,http://vit.trilogis.it/cam/cam72.jpg,371.84,SS 12,Mattarello,Trento,Territorio Val d'Adige,0,46.010178,11.125,2025-03-30 20:58:06,1
-24,36,CAM49,Rovereto,http://vit.trilogis.it/cam/cam49.jpg,375.30,SS 12,Ravina Cavalcavia,Trento,Territorio Val d'Adige,0,46.03916667,11.1225,2025-03-30 20:58:13,0
-25,37,CAM50,Bolzano,http://vit.trilogis.it/cam/cam50.jpg,375.30,SS 12,Ravina Cavalcavia,Trento,Territorio Val d'Adige,0,46.03916667,11.1225,2025-03-30 20:58:07,0
-12,13,CAM35,Verona,http://vit.trilogis.it/cam/cam35.jpg,378.00,SS 12,Piedicastello SUD (U4-U5),Trento,Territorio Val d'Adige,0,46.0614,11.1107,2025-03-30 20:58:09,0
-30,42,CAM55,Bolzano,http://vit.trilogis.it/cam/cam55.jpg,378.00,SS 12,Piedicastello SUD (U5),Trento,Territorio Val d'Adige,0,46.06111111,11.11055556,2025-03-30 20:58:02,0
-999,999,CAM47,Rovereto,http://vit.trilogis.it/cam/cam47.jpg,379.60,SS 12,Trento Centro (U6),Trento,Vallagarina,0,46.07708144,11.11234903,2025-03-30 20:58:55,1
-11,14,CAM34,Bolzano,http://vit.trilogis.it/cam/cam34.jpg,382.50,SS 12,Trento Commerciale (U8),Trento,Territorio Val d'Adige,0,46.0846,11.1098,2025-03-30 20:58:06,0
-29,41,CAM54,Rovereto,http://vit.trilogis.it/cam/cam54.jpg,382.50,SS 12,Trento Commerciale (U7),Trento,Territorio Val d'Adige,0,46.08555556,11.1075,2025-03-30 20:58:02,0
-39,51,CAM67,Brescia,http://vit.trilogis.it/cam/cam67.jpg,150.00,SS 42,Passo del Tonale,Vermiglio,Valle di Sole,0,46.263292,10.611749,2025-03-30 20:58:11,0
-10,1,CAM32,Malè,http://vit.trilogis.it/cam/cam32.jpg,189.20,SS 42,Mostizzolo,Cis,Val di Non,0,46.3946,11.008859,2025-03-30 20:58:20,0
-63,84,CAM84,Bolzano,http://vit.trilogis.it/cam/cam84.jpg,220.13,SS 42,Passo Mendola,Ruffrè Mendola,Val di Non,0,46.417947,11.205701,2025-03-30 20:58:10,0
-80,95,CAM95,Cles,http://vit.trilogis.it/cam/cam95.jpg,11.5,SS 43,Taio Nord,Predaia,Val di Non,2,46.3188372119956,11.0663062963298,2025-03-30 20:58:51,1
-8,30,CAM30,Cles,http://vit.trilogis.it/cam/cam30.jpg,15.60,SS 43,Mollaro,Predaia,Val di Non,0,46.29417,11.067052,2025-03-30 20:58:15,0
-23,35,CAM48,Val di Non,http://vit.trilogis.it/cam/cam48.jpg,25.30,SS 43,Mezzolombardo Campo sportivo,Mezzolombardo,Rotaliana e Koenigsberg,0,46.21972222,11.08444444,2025-03-30 20:58:56,0
-64,85,CAM85,Riva del Garda,http://vit.trilogis.it/cam/cam85.jpg,148.36,SS 45 bis,Cadine,Trento,Territorio Val d'Adige,0,46.091634,11.059149,2025-03-30 20:58:13,0
-26,38,CAM51,Cadine,http://vit.trilogis.it/cam/cam51.jpg,153.10,SS 45 bis,Trento Centro,Trento,Territorio Val d'Adige,0,46.07611111,11.11111111,2025-03-30 20:58:03,0
-83,98,CAM98,Pian delle Fugazze,http://vit.trilogis.it/cam/cam98.jpg,45,SS 46,Pian delle Fugazze,Vallarsa,Vallagarina,1,45.7579477732709,11.177948905555,2025-03-30 20:58:16,0
-27,39,CAM52,Padova,http://vit.trilogis.it/cam/cam52.jpg,76.40,SS 47,Località Martincelli Grigno,Grigno,Valsugana e Tesino,0,45.97416667,11.68083333,2025-03-30 20:58:23,0
-28,40,CAM53,Padova,http://vit.trilogis.it/cam/cam53.jpg,81.50,SS 47,Grigno Ovest,Grigno,Valsugana e Tesino,0,46.01388889,11.62305556,2025-03-30 20:58:28,0
-43,54,CAM71,Trento,http://vit.trilogis.it/cam/cam71.jpg,101.00,SS 47,Marter,Roncegno Terme,Valsugana e Tesino,0,46.0372,11.3993,2025-03-30 20:58:44,0
-18,19,CAM43,Padova,http://vit.trilogis.it/cam/cam43.jpg,105.70,SS 47,Campiello,Levico Terme,Alta Valsugana e Bersntol,0,46.0180867,11.3493651,2025-03-30 20:58:24,0
-14,20,CAM39,Borgo Valsugana,http://vit.trilogis.it/cam/cam39.jpg,117.20,SS 47,San Cristoforo,Pergine Valsugana,Alta Valsugana e Bersntol,0,46.04016733,11.2385416,2025-03-30 20:58:13,0
-41,52,CAM69,Trento,http://vit.trilogis.it/cam/cam69.jpg,119.25,SS 47,Pergine Centro,Pergine Valsugana,Alta Valsugana e Bersntol,0,46.057118,11.231318,2025-03-30 20:58:47,0
-21,23,CAM46,Trento,http://vit.trilogis.it/cam/cam46.jpg,129.60,SS 47,Trento Est (U10),Trento,Territorio Val d'Adige,0,46.09363396,11.12183332,2025-03-30 20:58:10,0
-59,45,CAM60,Passo S.Lugano,http://vit.trilogis.it/cam/cam60.jpg,20.00,SS 48,Stazione Castello,Castello Molina di Fiemme,Val di Fiemme,0,46.289142,11.41928,2025-03-30 20:58:13,0
-20,29,CAM45,Predazzo,http://vit.trilogis.it/cam/cam45.jpg,35.60,SS 48,Predazzo,Predazzo,Val di Fiemme,0,46.29982,11.587315,2025-03-30 20:58:34,0
-4,30,CAM6,Canazei,http://vit.trilogis.it/cam/cam6.jpg,48.00,SS 48,Moena nord,Moena,Val di Fassa,0,46.386063,11.66835,2025-03-30 20:58:10,0
-47,60,CAM75,Canazei,http://vit.trilogis.it/cam/cam75.jpg,76.10,SS 48,Passo Pordoi,Canazei,Val di Fassa,0,46.488084,11.8111,2025-03-30 20:58:02,0
-19,17,CAM44,Imer,http://vit.trilogis.it/cam/cam44.jpg,65.20,SS 50,Totoga,Imer,Primiero,0,46.139463,11.772516,2025-03-30 20:58:13,0
-72,87,CAM87,Fiera di Primiero,http://vit.trilogis.it/cam/cam87.jpg,85.160,SS 50,San Martino di Castrozza,Primiero San Martino di Castrozza,Primiero,0,46.2576633,11.8025058,2025-03-30 20:58:11,0
-53,81,CAM81,Passo Rolle,http://vit.trilogis.it/cam/cam81.jpg,95.50,SS 50,Passo Rolle,Primiero San Martino di Castrozza,Primiero,0,46.2963331,11.7859674,2025-03-30 20:58:03,0
-35,48,CAM63,Madonna di Campiglio,http://vit.trilogis.it/cam/cam63.jpg,59.40,SS 237,Storo,Storo,Giudicarie,0,45.848493,10.557986,2025-03-30 20:58:49,0
-37,50,CAM65,Saone/Ponte Arche/Trento,http://vit.trilogis.it/cam/cam65.jpg,88.502,SS 237,Tione - Zuclo,Borgo Lares,Giudicarie,0,46.041112,10.75069,2025-03-30 20:58:08,0
-62,83,CAM83,Passo C.C. Magno,http://vit.trilogis.it/cam/cam83.jpg,17,SS 239,Madonna di Campiglio - Gall. Campiglio,Pinzolo,Giudicarie,0,46.2346962,10.8223246,2025-03-30 20:58:14,0
-109,121,CAM121,Madonna di Campiglio,http://vit.trilogis.it/cam/cam121.jpg,24.650,SS 239,Sant'Antonio di Mavignola,Pinzolo,Giudicarie,0,46.1901484647524,10.7858878691233,2025-03-30 20:58:09,0
-129,129,CAM129,Madonna di Campiglio,http://vit.trilogis.it/cam/cam129.jpg,14,SS 239,Passo C.C. Magno,Pinzolo,Comunità delle Giudicarie,0,1.1,1.1,2025-03-30 20:58:08,0
-34,47,CAM62,Riva del Garda,http://vit.trilogis.it/cam/cam62.jpg,4.00,SS 240,Mori Est,Mori,Vallagarina,0,45.846424,10.993004,2025-03-30 20:58:51,0
-5,3,CAM03,Rovereto,http://vit.trilogis.it/cam/cam03.jpg,7.00,SS 240,Mori ovest,Mori,Vallagarina,0,45.854019,10.957629,2025-03-30 20:58:10,0
-32,46,CAM61,Riva del Garda,http://vit.trilogis.it/cam/cam61.jpg,7.00,SS 240,Mori Ovest,Mori,Vallagarina,0,45.854317,10.956695,2025-03-30 20:58:03,0
-38,56,CAM66,Riva del Garda,http://vit.trilogis.it/cam/cam66.jpg,9.10,SS 240,Loppio,Mori,Vallagarina,0,45.855322,10.931163,2025-03-30 20:58:02,0
-40,57,CAM68,Passo San Giovanni/Mori/Rovereto,http://vit.trilogis.it/cam/cam68.jpg,13.40,SS 240,Nago,Nago Torbole,Alto Garda e Ledro,0,45.87802,10.89707,2025-03-30 20:58:09,0
-60,79,CAM79,Riva del Garda,http://vit.trilogis.it/cam/cam79.jpg,17.47,SS 240,Linfano,Riva del Garda,Alto Garda e Ledro,0,45.8771551,10.864117,2025-03-30 20:58:08,0
-48,61,CAM76,Canazei,http://vit.trilogis.it/cam/cam76.jpg,31.00,SS 242,Passo Sella,Campitello di Fassa,Val di Fassa,0,46.507851,11.769153,2025-03-30 20:58:13,0
-49,62,CAM77,Moena,http://vit.trilogis.it/cam/cam77.jpg,11.00,SS 346,Passo San Pellegrino,Moena,Val di Fassa,0,46.3788,11.783517,2025-03-30 20:57:12,0
-78,93,CAM93,Passo San Pellegrino,http://vit.trilogis.it/cam/cam93.jpg,11.900,SS 346,Passo San Pellegrino,Moena,Val di Fassa,0,46.37824,11.7932223,2025-03-30 20:58:21,0
-52,80,CAM80,Passo Cereda,http://vit.trilogis.it/cam/cam80.jpg,7.60,SS 347,Passo Cereda,Primiero San Martino di Castrozza,Primiero,0,46.1926139,11.9022152,2025-03-30 20:58:03,0
-108,120,CAM120,Vigolo Vattaro,http://vit.trilogis.it/cam/cam120.jpg,12.900,SS 349,Vigolo Vattaro,Altopiano della Vigolana,Alta Valsugana e Bersntol,0,45.9994423894884,11.2045677007985,2025-03-30 20:58:16,0
-90,106,CAM106,Passo Sommo,http://vit.trilogis.it/cam/cam106.jpg,13.000,SS 350,Folgaria,Folgaria,Altipiani Cimbri,0,45.9127629843509,11.1780954711777,2025-03-30 20:58:15,0
-113,125,CAM125,Folgaria,http://vit.trilogis.it/cam/cam125.jpg,15.900,SS 350,Passo Sommo,Folgaria,Altipiani Cimbri,0,45.9197116626256,11.2064610947113,2025-03-30 20:58:09,0
-92,108,CAM108,Andalo,http://vit.trilogis.it/cam/cam108.jpg,15.556,SS 421,Casa Cantoniera,Andalo,Paganella,0,46.16115701602,10.9980931652517,2025-03-30 20:58:15,0
-135,135,CAM135,Molveno,http://vit.trilogis.it/cam/cam135.jpg,26,SS 421,Lago di Nembia,San Lorenzo Dorsino,Giudicarie,0,45.9667817,10.8119762,2025-03-30 20:58:12,0
-50,63,CAM78,Cavalese,http://vit.trilogis.it/cam/Cam78.jpg,12.50,SS 620,Passo Lavazè,Varena,Val di Fiemme,0,46.354626,11.492786,2025-03-30 20:58:27,0
-94,110,CAM110,Passo Fedaia,http://vit.trilogis.it/cam/cam110.jpg,11.470,SS 641,Passo Fedaia,Canazei,Val di Fassa,0,46.4643478079175,11.8604093761975,2025-03-30 20:58:09,0
-9126,126,CAM126,Serrada,http://vit.trilogis.it/cam/cam126.jpg,20.600,SP 02,Serrada,Serrada,Vallagarina,1,0.0,0.0,2025-03-30 20:58:09,0
-84,99,CAM99,San Valentino,http://vit.trilogis.it/cam/cam99.jpg,18,SP 03,San Valentino,Brentonico,Vallagarina,1,45.7824971140187,10.9094542009714,2025-03-30 20:58:09,0
-105,117,CAM117,Rumo,http://vit.trilogis.it/cam/cam117.jpg,8.500,SP 6,Rumo,Rumo,Val di Non,0,46.4419239734747,11.0172369185274,2025-03-30 20:58:15,0
-132,132,CAM132,Panarotta,http://vit.trilogis.it/cam/cam132.jpg,10,SP 12,Compet,Vignola-Falesina,Alta Valsugana e Bersntol,0,46.4419239734747,11.0172369185274,2025-03-30 20:58:05,0
-86,101,CAM101,Passo Predaia,http://vit.trilogis.it/cam/cam101.jpg,5,SP 13,Passo Predaia,Predaia,Val di Non,0,46.2981382326166,11.1028528166696,2025-03-30 20:58:10,0
-73,92,CAM92,Vezzano,http://vit.trilogis.it/cam/cam92.jpg,1.600,SP 18,Margone,Vallelaghi,Valle dei Laghi,0,46.068064,10.962831,2025-03-30 20:57:15,0
-91,107,CAM107,Aldeno,http://vit.trilogis.it/cam/cam107.jpg,1.30,SP 20,Bellaria,Villa Lagarina,Vallagarina,0,45.9553825930304,11.0290483417823,2025-03-30 20:58:17,1
-110,122,CAM122,Val Daone,http://vit.trilogis.it/cam/cam122.jpg,7.370,SP 27,Pracul,Valdaone,Giudicarie,0,45.946624192176,10.6441309090094,2025-03-30 20:58:40,0
-36,49,CAM64,Riva del Garda,http://vit.trilogis.it/cam/cam64.jpg,0.50,SP 37,Rotatoria Riva del Garda - Pranzo,Riva del Garda,Alto Garda e Ledro,0,45.896569,10.8378921,2025-03-30 20:58:28,1
-81,96,CAM96,Andalo,http://vit.trilogis.it/cam/cam96.jpg,14,SP 64,Andalo,Cavedago,Paganella,1,46.1754085802034,11.0298887706547,2025-03-30 20:58:11,0
-87,102,CAM102,Sporminore,http://vit.trilogis.it/cam/cam102.jpg,4.000,SP 67,Sporminore,Sporminore,Val di Non,0,46.2397764764856,11.0234384099977,2025-03-30 20:58:17,0
-111,123,CAM123,Bondone,http://vit.trilogis.it/cam/cam123.jpg,10.250,SP 69,Bondone,Bondone,Giudicarie,0,45.8053829153005,10.5503128710044,2025-03-30 20:58:09,2
-88,103,CAM103,Canal San Bovo,http://vit.trilogis.it/cam/cam103.jpg,6.000,SP 79,Passo Gobbera,Canal San Bovo,Primiero,0,46.1484161234629,11.7559202926171,2025-03-30 20:58:09,0
-79,94,CAM94,Passo Broccon,http://vit.trilogis.it/cam/cam94.jpg,26,SP 79,Passo Broccon,Castello Tesino,Valsugana e Tesino,0,46.1228478379853,11.6939651460429,2025-03-30 20:58:39,0
-96,112,CAM112,Passo Valles,http://vit.trilogis.it/cam/cam112.jpg,6.760,SP 81,Passo Valles,Primiero San Martino di Castrozza,Primiero,0,46.3386035000492,11.8008803573636,2025-03-30 20:58:53,0
-9105,105,CAM105,Trento,http://vit.trilogis.it/cam/cam105.jpg,11.200,SP 84,Vigo Cavedine,Trento,Territorio Val d'Adige,0,46.06487,11.081788,2025-03-30 20:58:22,0
-46,59,CAM74,Trento,http://vit.trilogis.it/cam/cam74.jpg,8.63,SP 85,Candriai,Trento,Territorio Val d'Adige,0,46.06487,11.081788,2025-03-30 20:57:03,0
-45,58,CAM73,Viote,http://vit.trilogis.it/cam/cam73.jpg,18.00,SP 85,Vason,Trento,Territorio Val d'Adige,0,46.038094,11.05413,2025-03-30 20:58:09,0
-82,97,CAM97,Lagolo,http://vit.trilogis.it/cam/cam97.jpg,31,SP 85,Lagolo,Madruzzo,Valle dei Laghi,1,46.0429565107058,11.0048669159777,2025-03-30 20:58:09,0
-98,114,CAM114,Terme di Rabbi,http://vit.trilogis.it/cam/cam114.jpg,11,SP 86,Terme di Rabbi,Rabbi,Valle di Sole,0,46.4076610987174,10.8061550916663,2025-03-30 20:58:13,0
-104,116,CAM116,Pejo Fonti,http://vit.trilogis.it/cam/cam116.jpg,9.700,SP 87,Pejo Fonti,Peio,Valle di Sole,0,46.3553125562681,10.6611035878333,2025-03-30 20:58:12,1
-107,119,CAM119,Passo Tremalzo,http://vit.trilogis.it/cam/cam119.jpg,10.800,SP 127,Tremalzo,Ledro,Alto Garda e Ledro,0,45.8436415846189,10.6813150275257,2025-03-30 20:58:09,0
-106,118,CAM118,Ledro,http://vit.trilogis.it/cam/cam118.jpg,50,SP 127,Ampola,Ledro,Alto Garda e Ledro,0,45.8644053070505,10.6460708986935,2025-03-30 20:58:03,0
-85,100,CAM100,Passo Coe,http://vit.trilogis.it/cam/cam100.jpg,7,SP 143,Passo Coe,Folgaria,Altipiani Cimbri,1,45.8758947510259,11.2202347419392,2025-03-30 20:58:09,0
-130,130,CAM130,Ortisè,http://vit.trilogis.it/cam/cam130.jpg,"6+0,50",SP 140,Ortisè,Mezzana,Comunità della Valle di Sole,0,1.1,1.1,2025-03-30 20:58:08,0
-103,115,CAM115,Marileva 1400,http://vit.trilogis.it/cam/cam115.jpg,9.300,SP 206,Marileva 1400,Mezzana,Valle di Sole,0,46.2997124710427,10.8135495219407,2025-03-30 20:58:05,0
-89,104,CAM104,,http://vit.trilogis.it/cam/cam104.jpg,11.450,SP 211,Sega di Ala,Ala,Vallagarina,0,45.6949547275969,10.9756966211682,2025-03-30 20:58:19,0
-112,124,CAM124,Zuclo,http://vit.trilogis.it/cam/cam124.jpg,4.450,SP 222,Passo Duron,Borgo Lares,Giudicarie,0,46.0341878589753,10.7989025300846,2025-03-30 20:58:09,0
-131,131,CAM131,Palù del Fersina,http://vit.trilogis.it/cam/cam131.jpg,4,SP 224,Passo del Redebu,Bedollo,Pinetana,0,46.0341878589753,10.7989025300846,2025-03-30 20:58:09,0
-93,109,CAM109,Pra Alpesina,http://vit.trilogis.it/cam/cam109.jpg,6.48,SP 230,Pra Alpesina,Avio,Vallagarina,0,45.763168565285,10.8769607993583,2025-03-30 20:58:10,0
-57,27,CAM10,Egna,http://vit.trilogis.it/cam/cam10.jpg,0.00,SP 232,St. Castello innesto / Gal. Brozzin,Castello Molina di Fiemme,Val di Fiemme,0,46.286224,11.422992,2025-03-30 20:58:09,0
-58,28,CAM11,Predazzo,http://vit.trilogis.it/cam/cam11.jpg,3.00,SP 232,"Castello Molina di Fiemme, innesto dep.",Castello Molina di Fiemme,Val di Fiemme,0,46.279819,11.443398,2025-03-30 20:58:36,0
-133,133,CAM133,Frassilongo,http://vit.trilogis.it/cam/cam133.jpg,5.100,SP 233,Kamauz,Frassilongo,Alta Valsugana e Bersntol,0,45.8644053070505,10.6460708986935,2025-03-30 20:58:08,0
-42,53,CAM70,Bolzano,http://vit.trilogis.it/cam/cam70.jpg,5.45,SP 235,Uscita Lavis,Lavis,Rotaliana e Koenigsberg,0,46.133552,11.082351,2025-03-30 20:58:30,0
-15,11,CAM40,Trento,http://vit.trilogis.it/cam/cam40.jpg,11.70,SP 235,Mezzolombardo Sud,Mezzolombardo,Rotaliana e Koenigsberg,0,46.182778,11.0975,2025-03-30 20:58:09,0
-95,111,CAM111,Passo Costalunga,http://vit.trilogis.it/cam/cam111.jpg,26.400,SP 241,Passo Costalunga,Vigo di Fassa,Val di Fassa,0,46.4044875941614,11.608441567616,2025-03-30 20:58:48,0
-134,134,CAM134,Veneto,http://vit.trilogis.it/cam/cam134.jpg,8,SP 246,Osservatorio Celado,Castello Tesino,Comunità Valsugana e Tesino,0,46.4044875941614,11.608441567616,2025-03-30 20:58:09,0
+17,12,CAM42,Rovereto,http://vit.trilogis.it/cam/cam42.jpg,367.10,SS 12,Mattarello Sud,Trento,Territorio Val d'Adige,0,45.970436,11.113057,2025-03-30 21:18:07,0
+44,55,CAM72,Trento,http://vit.trilogis.it/cam/cam72.jpg,371.84,SS 12,Mattarello,Trento,Territorio Val d'Adige,0,46.010178,11.125,2025-03-30 21:18:06,1
+24,36,CAM49,Rovereto,http://vit.trilogis.it/cam/cam49.jpg,375.30,SS 12,Ravina Cavalcavia,Trento,Territorio Val d'Adige,0,46.03916667,11.1225,2025-03-30 21:18:03,0
+25,37,CAM50,Bolzano,http://vit.trilogis.it/cam/cam50.jpg,375.30,SS 12,Ravina Cavalcavia,Trento,Territorio Val d'Adige,0,46.03916667,11.1225,2025-03-30 21:18:07,0
+12,13,CAM35,Verona,http://vit.trilogis.it/cam/cam35.jpg,378.00,SS 12,Piedicastello SUD (U4-U5),Trento,Territorio Val d'Adige,0,46.0614,11.1107,2025-03-30 21:18:07,0
+30,42,CAM55,Bolzano,http://vit.trilogis.it/cam/cam55.jpg,378.00,SS 12,Piedicastello SUD (U5),Trento,Territorio Val d'Adige,0,46.06111111,11.11055556,2025-03-30 21:18:08,0
+999,999,CAM47,Rovereto,http://vit.trilogis.it/cam/cam47.jpg,379.60,SS 12,Trento Centro (U6),Trento,Vallagarina,0,46.07708144,11.11234903,2025-03-30 21:18:55,0
+11,14,CAM34,Bolzano,http://vit.trilogis.it/cam/cam34.jpg,382.50,SS 12,Trento Commerciale (U8),Trento,Territorio Val d'Adige,0,46.0846,11.1098,2025-03-30 21:18:04,0
+29,41,CAM54,Rovereto,http://vit.trilogis.it/cam/cam54.jpg,382.50,SS 12,Trento Commerciale (U7),Trento,Territorio Val d'Adige,0,46.08555556,11.1075,2025-03-30 21:18:02,0
+9,16,CAM31,Bolzano,http://vit.trilogis.it/cam/cam31.jpg,398.20,SS 12,Cadino,Faedo,Rotaliana e Koenigsberg,0,46.2115,11.1521,2025-03-30 21:15:21,0
+39,51,CAM67,Brescia,http://vit.trilogis.it/cam/cam67.jpg,150.00,SS 42,Passo del Tonale,Vermiglio,Valle di Sole,0,46.263292,10.611749,2025-03-30 21:18:10,0
+10,1,CAM32,Malè,http://vit.trilogis.it/cam/cam32.jpg,189.20,SS 42,Mostizzolo,Cis,Val di Non,0,46.3946,11.008859,2025-03-30 21:18:20,0
+63,84,CAM84,Bolzano,http://vit.trilogis.it/cam/cam84.jpg,220.13,SS 42,Passo Mendola,Ruffrè Mendola,Val di Non,0,46.417947,11.205701,2025-03-30 21:18:08,0
+80,95,CAM95,Cles,http://vit.trilogis.it/cam/cam95.jpg,11.5,SS 43,Taio Nord,Predaia,Val di Non,2,46.3188372119956,11.0663062963298,2025-03-30 21:18:52,0
+8,30,CAM30,Cles,http://vit.trilogis.it/cam/cam30.jpg,15.60,SS 43,Mollaro,Predaia,Val di Non,0,46.29417,11.067052,2025-03-30 21:18:15,0
+16,9,CAM41,Vad di Non,http://vit.trilogis.it/cam/cam41.jpg,24.50,SS 43,Mezzolombardo Nord,Mezzolombardo,Rotaliana e Koenigsberg,0,46.225958,11.08057,2025-03-30 21:17:12,0
+23,35,CAM48,Val di Non,http://vit.trilogis.it/cam/cam48.jpg,25.30,SS 43,Mezzolombardo Campo sportivo,Mezzolombardo,Rotaliana e Koenigsberg,0,46.21972222,11.08444444,2025-03-30 21:18:54,0
+64,85,CAM85,Riva del Garda,http://vit.trilogis.it/cam/cam85.jpg,148.36,SS 45 bis,Cadine,Trento,Territorio Val d'Adige,0,46.091634,11.059149,2025-03-30 21:18:03,0
+26,38,CAM51,Cadine,http://vit.trilogis.it/cam/cam51.jpg,153.10,SS 45 bis,Trento Centro,Trento,Territorio Val d'Adige,0,46.07611111,11.11111111,2025-03-30 21:18:03,0
+83,98,CAM98,Pian delle Fugazze,http://vit.trilogis.it/cam/cam98.jpg,45,SS 46,Pian delle Fugazze,Vallarsa,Vallagarina,1,45.7579477732709,11.177948905555,2025-03-30 21:18:13,0
+27,39,CAM52,Padova,http://vit.trilogis.it/cam/cam52.jpg,76.40,SS 47,Località Martincelli Grigno,Grigno,Valsugana e Tesino,0,45.97416667,11.68083333,2025-03-30 21:18:27,0
+28,40,CAM53,Padova,http://vit.trilogis.it/cam/cam53.jpg,81.50,SS 47,Grigno Ovest,Grigno,Valsugana e Tesino,0,46.01388889,11.62305556,2025-03-30 21:18:33,0
+43,54,CAM71,Trento,http://vit.trilogis.it/cam/cam71.jpg,101.00,SS 47,Marter,Roncegno Terme,Valsugana e Tesino,0,46.0372,11.3993,2025-03-30 21:18:44,0
+18,19,CAM43,Padova,http://vit.trilogis.it/cam/cam43.jpg,105.70,SS 47,Campiello,Levico Terme,Alta Valsugana e Bersntol,0,46.0180867,11.3493651,2025-03-30 21:18:24,0
+14,20,CAM39,Borgo Valsugana,http://vit.trilogis.it/cam/cam39.jpg,117.20,SS 47,San Cristoforo,Pergine Valsugana,Alta Valsugana e Bersntol,0,46.04016733,11.2385416,2025-03-30 21:18:04,0
+41,52,CAM69,Trento,http://vit.trilogis.it/cam/cam69.jpg,119.25,SS 47,Pergine Centro,Pergine Valsugana,Alta Valsugana e Bersntol,0,46.057118,11.231318,2025-03-30 21:18:51,0
+21,23,CAM46,Trento,http://vit.trilogis.it/cam/cam46.jpg,129.60,SS 47,Trento Est (U10),Trento,Territorio Val d'Adige,0,46.09363396,11.12183332,2025-03-30 21:18:17,0
+59,45,CAM60,Passo S.Lugano,http://vit.trilogis.it/cam/cam60.jpg,20.00,SS 48,Stazione Castello,Castello Molina di Fiemme,Val di Fiemme,0,46.289142,11.41928,2025-03-30 21:18:13,0
+20,29,CAM45,Predazzo,http://vit.trilogis.it/cam/cam45.jpg,35.60,SS 48,Predazzo,Predazzo,Val di Fiemme,0,46.29982,11.587315,2025-03-30 21:18:34,0
+4,30,CAM6,Canazei,http://vit.trilogis.it/cam/cam6.jpg,48.00,SS 48,Moena nord,Moena,Val di Fassa,0,46.386063,11.66835,2025-03-30 21:18:09,0
+47,60,CAM75,Canazei,http://vit.trilogis.it/cam/cam75.jpg,76.10,SS 48,Passo Pordoi,Canazei,Val di Fassa,0,46.488084,11.8111,2025-03-30 21:18:04,0
+19,17,CAM44,Imer,http://vit.trilogis.it/cam/cam44.jpg,65.20,SS 50,Totoga,Imer,Primiero,0,46.139463,11.772516,2025-03-30 21:18:10,0
+72,87,CAM87,Fiera di Primiero,http://vit.trilogis.it/cam/cam87.jpg,85.160,SS 50,San Martino di Castrozza,Primiero San Martino di Castrozza,Primiero,0,46.2576633,11.8025058,2025-03-30 21:18:11,0
+53,81,CAM81,Passo Rolle,http://vit.trilogis.it/cam/cam81.jpg,95.50,SS 50,Passo Rolle,Primiero San Martino di Castrozza,Primiero,0,46.2963331,11.7859674,2025-03-30 21:18:02,0
+35,48,CAM63,Madonna di Campiglio,http://vit.trilogis.it/cam/cam63.jpg,59.40,SS 237,Storo,Storo,Giudicarie,0,45.848493,10.557986,2025-03-30 21:18:47,0
+37,50,CAM65,Saone/Ponte Arche/Trento,http://vit.trilogis.it/cam/cam65.jpg,88.502,SS 237,Tione - Zuclo,Borgo Lares,Giudicarie,0,46.041112,10.75069,2025-03-30 21:18:09,0
+62,83,CAM83,Passo C.C. Magno,http://vit.trilogis.it/cam/cam83.jpg,17,SS 239,Madonna di Campiglio - Gall. Campiglio,Pinzolo,Giudicarie,0,46.2346962,10.8223246,2025-03-30 21:18:14,0
+109,121,CAM121,Madonna di Campiglio,http://vit.trilogis.it/cam/cam121.jpg,24.650,SS 239,Sant'Antonio di Mavignola,Pinzolo,Giudicarie,0,46.1901484647524,10.7858878691233,2025-03-30 21:18:10,0
+129,129,CAM129,Madonna di Campiglio,http://vit.trilogis.it/cam/cam129.jpg,14,SS 239,Passo C.C. Magno,Pinzolo,Comunità delle Giudicarie,0,1.1,1.1,2025-03-30 21:18:08,0
+34,47,CAM62,Riva del Garda,http://vit.trilogis.it/cam/cam62.jpg,4.00,SS 240,Mori Est,Mori,Vallagarina,0,45.846424,10.993004,2025-03-30 21:18:53,0
+5,3,CAM03,Rovereto,http://vit.trilogis.it/cam/cam03.jpg,7.00,SS 240,Mori ovest,Mori,Vallagarina,0,45.854019,10.957629,2025-03-30 21:18:11,0
+32,46,CAM61,Riva del Garda,http://vit.trilogis.it/cam/cam61.jpg,7.00,SS 240,Mori Ovest,Mori,Vallagarina,0,45.854317,10.956695,2025-03-30 21:18:02,0
+38,56,CAM66,Riva del Garda,http://vit.trilogis.it/cam/cam66.jpg,9.10,SS 240,Loppio,Mori,Vallagarina,0,45.855322,10.931163,2025-03-30 21:18:02,0
+40,57,CAM68,Passo San Giovanni/Mori/Rovereto,http://vit.trilogis.it/cam/cam68.jpg,13.40,SS 240,Nago,Nago Torbole,Alto Garda e Ledro,0,45.87802,10.89707,2025-03-30 21:18:08,1
+60,79,CAM79,Riva del Garda,http://vit.trilogis.it/cam/cam79.jpg,17.47,SS 240,Linfano,Riva del Garda,Alto Garda e Ledro,0,45.8771551,10.864117,2025-03-30 21:18:11,0
+48,61,CAM76,Canazei,http://vit.trilogis.it/cam/cam76.jpg,31.00,SS 242,Passo Sella,Campitello di Fassa,Val di Fassa,0,46.507851,11.769153,2025-03-30 21:18:11,0
+49,62,CAM77,Moena,http://vit.trilogis.it/cam/cam77.jpg,11.00,SS 346,Passo San Pellegrino,Moena,Val di Fassa,0,46.3788,11.783517,2025-03-30 21:18:13,0
+78,93,CAM93,Passo San Pellegrino,http://vit.trilogis.it/cam/cam93.jpg,11.900,SS 346,Passo San Pellegrino,Moena,Val di Fassa,0,46.37824,11.7932223,2025-03-30 21:18:23,0
+52,80,CAM80,Passo Cereda,http://vit.trilogis.it/cam/cam80.jpg,7.60,SS 347,Passo Cereda,Primiero San Martino di Castrozza,Primiero,0,46.1926139,11.9022152,2025-03-30 21:18:03,0
+108,120,CAM120,Vigolo Vattaro,http://vit.trilogis.it/cam/cam120.jpg,12.900,SS 349,Vigolo Vattaro,Altopiano della Vigolana,Alta Valsugana e Bersntol,0,45.9994423894884,11.2045677007985,2025-03-30 21:18:16,1
+90,106,CAM106,Passo Sommo,http://vit.trilogis.it/cam/cam106.jpg,13.000,SS 350,Folgaria,Folgaria,Altipiani Cimbri,0,45.9127629843509,11.1780954711777,2025-03-30 21:18:16,0
+113,125,CAM125,Folgaria,http://vit.trilogis.it/cam/cam125.jpg,15.900,SS 350,Passo Sommo,Folgaria,Altipiani Cimbri,0,45.9197116626256,11.2064610947113,2025-03-30 21:18:09,0
+92,108,CAM108,Andalo,http://vit.trilogis.it/cam/cam108.jpg,15.556,SS 421,Casa Cantoniera,Andalo,Paganella,0,46.16115701602,10.9980931652517,2025-03-30 21:18:15,0
+135,135,CAM135,Molveno,http://vit.trilogis.it/cam/cam135.jpg,26,SS 421,Lago di Nembia,San Lorenzo Dorsino,Giudicarie,0,45.9667817,10.8119762,2025-03-30 21:18:08,0
+50,63,CAM78,Cavalese,http://vit.trilogis.it/cam/Cam78.jpg,12.50,SS 620,Passo Lavazè,Varena,Val di Fiemme,0,46.354626,11.492786,2025-03-30 21:18:34,0
+94,110,CAM110,Passo Fedaia,http://vit.trilogis.it/cam/cam110.jpg,11.470,SS 641,Passo Fedaia,Canazei,Val di Fassa,0,46.4643478079175,11.8604093761975,2025-03-30 21:18:09,0
+9126,126,CAM126,Serrada,http://vit.trilogis.it/cam/cam126.jpg,20.600,SP 02,Serrada,Serrada,Vallagarina,1,0.0,0.0,2025-03-30 21:18:09,0
+84,99,CAM99,San Valentino,http://vit.trilogis.it/cam/cam99.jpg,18,SP 03,San Valentino,Brentonico,Vallagarina,1,45.7824971140187,10.9094542009714,2025-03-30 21:18:08,0
+105,117,CAM117,Rumo,http://vit.trilogis.it/cam/cam117.jpg,8.500,SP 6,Rumo,Rumo,Val di Non,0,46.4419239734747,11.0172369185274,2025-03-30 21:18:12,0
+132,132,CAM132,Panarotta,http://vit.trilogis.it/cam/cam132.jpg,10,SP 12,Compet,Vignola-Falesina,Alta Valsugana e Bersntol,0,46.4419239734747,11.0172369185274,2025-03-30 21:18:04,0
+86,101,CAM101,Passo Predaia,http://vit.trilogis.it/cam/cam101.jpg,5,SP 13,Passo Predaia,Predaia,Val di Non,0,46.2981382326166,11.1028528166696,2025-03-30 21:18:10,0
+73,92,CAM92,Vezzano,http://vit.trilogis.it/cam/cam92.jpg,1.600,SP 18,Margone,Vallelaghi,Valle dei Laghi,0,46.068064,10.962831,2025-03-30 21:18:56,0
+91,107,CAM107,Aldeno,http://vit.trilogis.it/cam/cam107.jpg,1.30,SP 20,Bellaria,Villa Lagarina,Vallagarina,0,45.9553825930304,11.0290483417823,2025-03-30 21:18:31,0
+110,122,CAM122,Val Daone,http://vit.trilogis.it/cam/cam122.jpg,7.370,SP 27,Pracul,Valdaone,Giudicarie,0,45.946624192176,10.6441309090094,2025-03-30 21:18:21,0
+36,49,CAM64,Riva del Garda,http://vit.trilogis.it/cam/cam64.jpg,0.50,SP 37,Rotatoria Riva del Garda - Pranzo,Riva del Garda,Alto Garda e Ledro,0,45.896569,10.8378921,2025-03-30 21:18:27,0
+81,96,CAM96,Andalo,http://vit.trilogis.it/cam/cam96.jpg,14,SP 64,Andalo,Cavedago,Paganella,1,46.1754085802034,11.0298887706547,2025-03-30 21:18:11,0
+87,102,CAM102,Sporminore,http://vit.trilogis.it/cam/cam102.jpg,4.000,SP 67,Sporminore,Sporminore,Val di Non,0,46.2397764764856,11.0234384099977,2025-03-30 21:18:14,0
+111,123,CAM123,Bondone,http://vit.trilogis.it/cam/cam123.jpg,10.250,SP 69,Bondone,Bondone,Giudicarie,0,45.8053829153005,10.5503128710044,2025-03-30 21:18:08,2
+88,103,CAM103,Canal San Bovo,http://vit.trilogis.it/cam/cam103.jpg,6.000,SP 79,Passo Gobbera,Canal San Bovo,Primiero,0,46.1484161234629,11.7559202926171,2025-03-30 21:18:09,0
+79,94,CAM94,Passo Broccon,http://vit.trilogis.it/cam/cam94.jpg,26,SP 79,Passo Broccon,Castello Tesino,Valsugana e Tesino,0,46.1228478379853,11.6939651460429,2025-03-30 21:18:38,0
+96,112,CAM112,Passo Valles,http://vit.trilogis.it/cam/cam112.jpg,6.760,SP 81,Passo Valles,Primiero San Martino di Castrozza,Primiero,0,46.3386035000492,11.8008803573636,2025-03-30 21:18:57,0
+9105,105,CAM105,Trento,http://vit.trilogis.it/cam/cam105.jpg,11.200,SP 84,Vigo Cavedine,Trento,Territorio Val d'Adige,0,46.06487,11.081788,2025-03-30 21:18:25,0
+46,59,CAM74,Trento,http://vit.trilogis.it/cam/cam74.jpg,8.63,SP 85,Candriai,Trento,Territorio Val d'Adige,0,46.06487,11.081788,2025-03-30 21:18:03,0
+45,58,CAM73,Viote,http://vit.trilogis.it/cam/cam73.jpg,18.00,SP 85,Vason,Trento,Territorio Val d'Adige,0,46.038094,11.05413,2025-03-30 21:18:11,0
+82,97,CAM97,Lagolo,http://vit.trilogis.it/cam/cam97.jpg,31,SP 85,Lagolo,Madruzzo,Valle dei Laghi,1,46.0429565107058,11.0048669159777,2025-03-30 21:18:10,0
+98,114,CAM114,Terme di Rabbi,http://vit.trilogis.it/cam/cam114.jpg,11,SP 86,Terme di Rabbi,Rabbi,Valle di Sole,0,46.4076610987174,10.8061550916663,2025-03-30 21:18:13,0
+104,116,CAM116,Pejo Fonti,http://vit.trilogis.it/cam/cam116.jpg,9.700,SP 87,Pejo Fonti,Peio,Valle di Sole,0,46.3553125562681,10.6611035878333,2025-03-30 21:18:12,0
+107,119,CAM119,Passo Tremalzo,http://vit.trilogis.it/cam/cam119.jpg,10.800,SP 127,Tremalzo,Ledro,Alto Garda e Ledro,0,45.8436415846189,10.6813150275257,2025-03-30 21:18:09,0
+106,118,CAM118,Ledro,http://vit.trilogis.it/cam/cam118.jpg,50,SP 127,Ampola,Ledro,Alto Garda e Ledro,0,45.8644053070505,10.6460708986935,2025-03-30 21:18:03,0
+85,100,CAM100,Passo Coe,http://vit.trilogis.it/cam/cam100.jpg,7,SP 143,Passo Coe,Folgaria,Altipiani Cimbri,1,45.8758947510259,11.2202347419392,2025-03-30 21:18:12,0
+130,130,CAM130,Ortisè,http://vit.trilogis.it/cam/cam130.jpg,"6+0,50",SP 140,Ortisè,Mezzana,Comunità della Valle di Sole,0,1.1,1.1,2025-03-30 21:18:08,0
+103,115,CAM115,Marileva 1400,http://vit.trilogis.it/cam/cam115.jpg,9.300,SP 206,Marileva 1400,Mezzana,Valle di Sole,0,46.2997124710427,10.8135495219407,2025-03-30 21:18:06,0
+89,104,CAM104,,http://vit.trilogis.it/cam/cam104.jpg,11.450,SP 211,Sega di Ala,Ala,Vallagarina,0,45.6949547275969,10.9756966211682,2025-03-30 21:18:19,0
+112,124,CAM124,Zuclo,http://vit.trilogis.it/cam/cam124.jpg,4.450,SP 222,Passo Duron,Borgo Lares,Giudicarie,0,46.0341878589753,10.7989025300846,2025-03-30 21:18:13,0
+131,131,CAM131,Palù del Fersina,http://vit.trilogis.it/cam/cam131.jpg,4,SP 224,Passo del Redebu,Bedollo,Pinetana,0,46.0341878589753,10.7989025300846,2025-03-30 21:18:09,0
+93,109,CAM109,Pra Alpesina,http://vit.trilogis.it/cam/cam109.jpg,6.48,SP 230,Pra Alpesina,Avio,Vallagarina,0,45.763168565285,10.8769607993583,2025-03-30 21:18:09,0
+57,27,CAM10,Egna,http://vit.trilogis.it/cam/cam10.jpg,0.00,SP 232,St. Castello innesto / Gal. Brozzin,Castello Molina di Fiemme,Val di Fiemme,0,46.286224,11.422992,2025-03-30 21:18:10,0
+58,28,CAM11,Predazzo,http://vit.trilogis.it/cam/cam11.jpg,3.00,SP 232,"Castello Molina di Fiemme, innesto dep.",Castello Molina di Fiemme,Val di Fiemme,0,46.279819,11.443398,2025-03-30 21:18:20,0
+133,133,CAM133,Frassilongo,http://vit.trilogis.it/cam/cam133.jpg,5.100,SP 233,Kamauz,Frassilongo,Alta Valsugana e Bersntol,0,45.8644053070505,10.6460708986935,2025-03-30 21:18:09,0
+42,53,CAM70,Bolzano,http://vit.trilogis.it/cam/cam70.jpg,5.45,SP 235,Uscita Lavis,Lavis,Rotaliana e Koenigsberg,0,46.133552,11.082351,2025-03-30 21:18:31,0
+15,11,CAM40,Trento,http://vit.trilogis.it/cam/cam40.jpg,11.70,SP 235,Mezzolombardo Sud,Mezzolombardo,Rotaliana e Koenigsberg,0,46.182778,11.0975,2025-03-30 21:18:07,0
+95,111,CAM111,Passo Costalunga,http://vit.trilogis.it/cam/cam111.jpg,26.400,SP 241,Passo Costalunga,Vigo di Fassa,Val di Fassa,0,46.4044875941614,11.608441567616,2025-03-30 21:18:13,0
+134,134,CAM134,Veneto,http://vit.trilogis.it/cam/cam134.jpg,8,SP 246,Osservatorio Celado,Castello Tesino,Comunità Valsugana e Tesino,0,46.4044875941614,11.608441567616,2025-03-30 21:18:08,0
